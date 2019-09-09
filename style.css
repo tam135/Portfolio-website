@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 header {
-    height: 100vh;
+    height: 70vh;
     text-align: center;
 
 }
@@ -59,13 +59,39 @@ header {
 .header__description {
     border: 1px solid black;
     border-radius: 10px;
-    background-color: rgba(0, 75, 255, 0.4);
+    background-color: rgba(0, 0, 255, 0.2);
     padding: 1%;
     width: 80%;
     margin: auto auto;
     text-align: left;
     font-size: 14px;
     margin-top: 25px;
+}
+.speech-bubble {
+	position: relative;
+	background: rgba(50, 140, 250, 0.9);
+    border-radius: .9em;
+    width: 75%;
+    height: 20vh;
+    margin: auto auto;
+    text-align: left;
+    padding: 5%;
+    font-size: 16px;
+}
+/* #00aabb */
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 31px solid transparent;
+	border-bottom-color: rgba(50, 140, 250, 0.9);
+	border-top: 0;
+	border-left: 0;
+	margin-left: -15.5px;
+	margin-top: -31px;
 }
 section:nth-child(even) {
     background-color: #F6F6F6;
