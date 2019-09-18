@@ -11,7 +11,7 @@
 <body>
     <nav role = "navigation">
         <h2 class="nav nav--name">Tam Phan</h2>
-        <h3 class="nav nav--title">Front End Developer</h3>
+        <h3 class="nav nav--title">Full stack Developer</h3>
         <ul class = "nav nav--links">
             <li><a class = "nav nav__about" href="#">About</a></li>
             <li><a class = "nav nav__projects" href="#">Projects</a></li>
@@ -23,39 +23,71 @@
         <header role="banner">
         
             <img src = "images/headshot.png" class = "headshot">
-            <!-- <div class="header__description">
-                <p>Hi, I'm Tam, a front end developer looking to make the internet a more creative and responsive place. Check out some of my work below! </p>
-            </div> -->
-            <div class="speech-bubble">Hi, I'm Tam, a front end developer looking to make the internet a more creative and responsive place. Check out some of
+            <div class="speech-bubble">Hi, I'm Tam, a full stack developer looking to make the internet a more creative and responsive place. Check out some of
             my work below!</div>
         </header>
 
-        <section name="project">
-           <h2>Projects</h2>
+        <section name="project1">
+           <h2 class="projects">Projects</h2>
            <div>
-                <img src = "Images/Project1.gif" class="project__screenshot1">
+                <img src = "Images/expensity.gif" class="project__screenshot1">
            </div>
-           <div class="project__description">
-               <p>Enter in your favorite movie and find similar movies to binge.</p>
-               <p>Build: HTML CSS JavaScript JQuery</p>
-               <a href = "https://github.com/tam135/API-Project--Movie-Finder">Code</a>
-                <a href = "https://tam135.github.io/API-Project--Movie-Finder/">Demo</a> 
+           <div class="project__description1">
+               <h3>Expensity</h3>
+               <p>Expense tracking app that lets you easily record expenses to help keep tracking of your spending. Personalized charts and stats update to help you stay on track.</p>
+               <p>Built with: React, Node.js, Express.js, PostgreSQL, Knex.js, CSS </p>
+               <a href = "https://github.com/tam135/Expensity-client">Code</a>
+                <a href = "https://expensity-client.tnphan0204.now.sh/">Demo</a> 
             </div>
+        </section>
 
+        <section >
+            <div>
+                <img src="Images/moviebinge.gif" class="project__screenshot2">
+            </div>
+            <div class="project__description2">
+                <h3>MovieBinge</h3>
+                <p>MovieBinge is a movie database app using TheMovieDB API. New popular movies are displayed and users can search
+                    for and click on a movie to find out more information.</p>
+                <p>Built with: React, JavaScript, CSS3 </p>
+                <a href="https://github.com/tam135/MovieBinge">Code</a>
+                <a href="https://moviebinge.tnphan0204.now.sh">Demo</a>
+            </div>
         </section>
 
         <section>
-            Section 2
+            <div>
+                <img src="Images/strictlyfitness.gif" class="project__screenshot1 gym">
+            </div>
+            <div class="project__description1 gym">
+                <h3>Strictly Fitness</h3>
+                <p>Landing page for Strictly Fitness, a gym chain with the best trainers and fitness programs in the USA. Wow and Smooth Scroll were implemented to bring Jquery like features without the library's heavy
+                footprint  </p>
+                <p>Built with: HTML CSS3 JavaScript </p>
+                <a href="https://github.com/tam135/Strictly-fitness">Code</a>
+                <a href="https://tam135.github.io/Strictly-fitness/">Demo</a>
+            </div>
         </section>
-
-        <section>
-            Section 3
-        </section>
-
+<!-- 
         <section>
             Section 4
-        </section> 
+        </section>  -->
+        <section class="contacts">
+            <h1>Contact</h1>
+            <hr width="50%"/>
+            <a href="https://www.linkedin.com/in/tnphan/">
+                <img src="images/linkedin.png" class="logos">
+            </a>
+            <a href="https://github.com/tam135">
+                <img src="images/github.png" class="logos">
+            </a>
+            <a href="https://www.linkedin.com/in/tnphan/">
+                <img src="images/email.png" class="logos">
+            </a>
+        </section>
     </main>
     <footer role="content-info">@TAM PHAN 2019</footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
