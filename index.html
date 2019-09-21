@@ -1,93 +1,157 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans" rel="stylesheet">
-    <title>Portfolio</title>
-</head> 
-<body>
-    <nav role = "navigation">
-        <h2 class="nav nav--name">Tam Phan</h2>
-        <h3 class="nav nav--title">Full stack Developer</h3>
-        <ul class = "nav nav--links">
-            <li><a class = "nav nav__about" href="#">About</a></li>
-            <li><a class = "nav nav__projects" href="#">Projects</a></li>
-            <li><a class = "nav nav__contact" href="#">Contact</a></li>
-        </ul>
-    </nav>
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <main role="main">
-        <header role="banner">
-        
-            <img src = "Images/headshot.png" class = "headshot">
-            <div class="speech-bubble">Hi, I'm Tam, a full stack developer looking to make the internet a more creative and responsive place. Check out some of
-            my work below!</div>
-        </header>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">About</a></li>
+							<li><a href="#one">Projects</a></li>
 
-        <section name="project1">
-           <h2 class="projects">Projects</h2>
-           <div>
-                <img src = "Images/expensity.gif" class="project__screenshot1">
-           </div>
-           <div class="project__description1">
-               <h3>Expensity</h3>
-               <p>Expense tracking app that lets you easily record expenses to help keep tracking of your spending. Personalized charts and stats update to help you stay on track.</p>
-               <p>Built with: React, Node.js, Express.js, PostgreSQL, Knex.js, CSS </p>
-               <a href = "https://github.com/tam135/Expensity-client">Code</a>
-                <a href = "https://expensity-client.tnphan0204.now.sh/">Demo</a> 
-            </div>
-        </section>
+							<li><a href="#three">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-        <section >
-            <div>
-                <img src="Images/moviebinge.gif" class="project__screenshot2">
-            </div>
-            <div class="project__description2">
-                <h3>MovieBinge</h3>
-                <p>MovieBinge is a movie database app using TheMovieDB API. New popular movies are displayed and users can search
-                    for and click on a movie to find out more information.</p>
-                <p>Built with: React, JavaScript, CSS3 </p>
-                <a href="https://github.com/tam135/MovieBinge">Code</a>
-                <a href="https://moviebinge.tnphan0204.now.sh">Demo</a>
-            </div>
-        </section>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-        <section>
-            <div>
-                <img src="Images/strictlyfitness.gif" class="project__screenshot1 gym">
-            </div>
-            <div class="project__description1 gym">
-                <h3>Strictly Fitness</h3>
-                <p>Landing page for Strictly Fitness, a gym chain with the best trainers and fitness programs in the USA. Wow and Smooth Scroll were implemented to bring Jquery like features without the library's heavy
-                footprint  </p>
-                <p>Built with: HTML CSS3 JavaScript </p>
-                <a href="https://github.com/tam135/Strictly-fitness">Code</a>
-                <a href="https://tam135.github.io/Strictly-fitness/">Demo</a>
-            </div>
-        </section>
-<!-- 
-        <section>
-            Section 4
-        </section>  -->
-        <section class="contacts">
-            <h1>Contact</h1>
-            <hr width="50%"/>
-            <a href="https://www.linkedin.com/in/tnphan/">
-                <img src="Images/linkedin.png" class="logos">
-            </a>
-            <a href="https://github.com/tam135">
-                <img src="Images/github.png" class="logos">
-            </a>
-            <a href="https://www.linkedin.com/in/tnphan/">
-                <img src="Images/email.png" class="logos">
-            </a>
-        </section>
-    </main>
-    <footer role="content-info">@TAM PHAN 2019</footer>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="script.js"></script>
-</body>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<!-- <h1>Hyperspace</h1> -->
+							<img src="images/headshot.png">
+							<p>Hi. I'm Tam, a front end developer looking to make the internet a more creative and responsive place. Check out some of
+							my work below!</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/expensity1.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Expensity</h2>
+									<p>Expense tracking app that lets you easily record expenses to help keep tracking of your spending. Personalized charts
+									and stats update to help you stay on track.</p>
+									<p>Built with: React, Node.js, Express.js, PostgreSQL, Knex.js, CSS</p>
+									<ul class="actions code-demo">
+										<li><a href="https://github.com/tam135/Expensity-client" class="button">Code</a></li>
+										<li><a href="https://expensity-client.tnphan0204.now.sh/" class="button">Demo</a></li>
+									</ul>
+
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/movie1.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>MovieBinge</h2>
+									<p>MovieBinge is a movie database app using TheMovieDB API. New popular movies are displayed and users can search for and
+									click on a movie to find out more information</p>
+									<p>Built with: React, JavaScript, CSS3</p>
+									<ul class="actions code-demo">
+										<li><a href="https://github.com/tam135/MovieBinge" class="button">Code</a></li>
+										<li><a href="https://moviebinge.tnphan0204.now.sh" class="button">Demo</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/gym.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Strictly Fitness</h2>
+									<p>Landing page for Strictly Fitness, a gym chain with the best trainers and fitness programs in the USA. Wow and Smooth
+									Scroll were implemented to bring Jquery like features without the library's heavy footprint</p>
+									<p>Built with: HTML CSS JavaScript</p>
+									<ul class="actions">
+										<li><a href="https://github.com/tam135/Strictly-fitness" class="button">Code</a></li>
+										<li><a href="https://tam135.github.io/Strictly-fitness/" class="button">Demo</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Skills</h2>
+							<div class="features">
+								<section>
+									<h3>Front End</h3>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>jQuery</li>
+									<li>Bootstrap</li>
+									<li>React</li>
+								</section>
+								<section>
+									<h3>Back End</h3>
+									<li>Node.js</li>
+									<li>PostgreSQL</li>
+									<li>Express</li>
+									<li>Knex</li>
+									
+								</section>
+								
+							</div>
+							
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Contact</h2>
+							
+								<section>
+									<ul class="contact">
+										<hr>
+											<ul class="icons">
+												<li><a href="https://github.com/tam135" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="mailto:tnphan0204@gmail.com" class="fa fa-envelope"><span class="label">Email</span></a></li>
+												<li><a href="https://www.linkedin.com/in/tnphan/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
